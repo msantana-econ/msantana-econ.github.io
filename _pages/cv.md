@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<a href="{{ base_path }}/files/cv.pdf" target="_blank">Download a PDF copy of my CV.</a>
+
 Education
 ======
 * Ph.D in Economics, Northwestern University, 2025
