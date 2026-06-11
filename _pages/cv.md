@@ -22,11 +22,11 @@ Publications
 Working Papers
 ======
 * "A Theory of Downward Wage Rigidity", 2025
+* "Behavioral Expectations", joint with Tao Wang, 2026
 
 Work in Progress
 ======
 * "Sales, Reference Prices, and Consumer Behavior", joint with Sergio Rebelo, Pedro Teles, Miguel Godinho de Matos, and Pedro Amorim, 2026
-* "Behavioral Expectations", 2026
 
 Presentations and Seminars
 ======
