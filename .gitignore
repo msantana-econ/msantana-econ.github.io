@@ -21,3 +21,11 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# LaTeX build artifacts from compiling files/cv.tex (keep cv.tex and cv.pdf)
+files/*.aux
+files/*.log
+files/*.out
+files/*.fls
+files/*.fdb_latexmk
+files/*.synctex.gz

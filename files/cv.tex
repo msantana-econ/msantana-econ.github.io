@@ -1,0 +1,139 @@
+\documentclass[11pt]{article}
+
+% ---------------------------------------------------------------------------
+% Miguel Santana --- Curriculum Vitae
+% Clean academic CV (no external class). Compile with pdflatex / latexmk.
+% ---------------------------------------------------------------------------
+
+\usepackage[letterpaper,top=1in,bottom=1in,left=1.1in,right=1.1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{linkblue}{rgb}{0.10,0.22,0.45}
+\hypersetup{
+  colorlinks = true,
+  urlcolor   = linkblue,
+  linkcolor  = linkblue,
+  citecolor  = linkblue,
+  pdfauthor  = {Miguel Santana},
+  pdftitle   = {Miguel Santana --- Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae}}
+
+% Section headings: small caps, ruled
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\scshape}{}{0em}{}[\vspace{-4pt}\titlerule]
+\titlespacing*{\section}{0pt}{14pt}{5pt}
+
+% Tight default lists
+\setlist[itemize]{leftmargin=1.4em,itemsep=2pt,topsep=2pt,parsep=0pt}
+
+\pagestyle{plain}
+
+\begin{document}
+
+% --------------------------- Header ---------------------------------------
+\begin{center}
+  {\LARGE\scshape Miguel Santana}
+\end{center}
+\vspace{2pt}
+
+\noindent\begin{tabularx}{\textwidth}{@{}Xr@{}}
+Bank of Canada                  & \href{mailto:MMoreiraSantanaFreire@bankofcanada.ca}{MMoreiraSantanaFreire@bankofcanada.ca} \\
+234 Wellington Street           & \href{https://msantana-econ.github.io}{msantana-econ.github.io} \\
+Ottawa, Ontario K1A 0G9, Canada & Citizenship: Portuguese \\
+\end{tabularx}
+
+% --------------------------- Research interests ---------------------------
+\section{Research Interests}
+Macroeconomics and Behavioral Economics
+
+% --------------------------- Appointments ---------------------------------
+\section{Appointments}
+\noindent
+\textbf{Bank of Canada} \hfill July 2025--present \\
+\hspace*{1.4em} Senior Economist, Canadian Economic Analysis
+
+% --------------------------- Education ------------------------------------
+\section{Education}
+\noindent
+Ph.D. in Economics, Northwestern University \hfill 2025 \\
+\hspace*{1.4em}\textit{Committee:} Martin Eichenbaum (co-chair), Sérgio Rebelo (co-chair), George-Marios Angeletos \\[3pt]
+M.A. in Economics, Northwestern University \hfill 2020 \\
+M.Sc. in Economics, Catolica-Lisbon School of Business and Economics \hfill 2019 \\
+B.A. in Economics, Catolica-Lisbon School of Business and Economics \hfill 2017
+
+% --------------------------- Publications ---------------------------------
+\section{Publications}
+\noindent
+``Behavioral Sticky Prices'' (with Sérgio Rebelo and Pedro Teles). \textit{Journal of Monetary Economics}, 155 (2025), art.\ 103828.
+
+% --------------------------- Working papers -------------------------------
+\section{Working Papers}
+\noindent
+``Behavioral Expectations'' (with Tao Wang), 2026. \\[4pt]
+``A Theory of Downward Wage Rigidity,'' 2025.
+
+% --------------------------- Work in progress -----------------------------
+\section{Work in Progress}
+\noindent
+``Sales, Reference Prices, and Consumer Behavior'' (with Sérgio Rebelo, Pedro Teles, Miguel Godinho de Matos, and Pedro Amorim), 2026.
+
+% --------------------------- Presentations --------------------------------
+\section{Presentations and Seminars}
+\noindent
+Summer Meeting of the Society for Economic Dynamics, Athens \hfill 2026 \\
+Theories and Methods in Macroeconomics (T2M) Conference, Montréal \hfill 2026 \\
+Canadian Economics Association Annual Conference, Vancouver \hfill 2026 \\
+Bank of Canada Behavioral Macroeconomics Workshop, Ottawa \hfill 2025 \\
+12th Banco de Portugal Conference on Monetary Economics, Lisbon \hfill 2025 \\
+Summer Meeting of the Society for Economic Dynamics, Copenhagen \hfill 2025 \\
+Winter Meeting of the Society for Economic Dynamics, Buenos Aires \hfill 2024 \\
+38th Annual Meeting of the Canadian Macro Study Group, Montréal \hfill 2024 \\
+JME-SNB-SCG Conference on Informational Frictions in Macroeconomics \hfill 2024 \\
+Federal Reserve Bank of Chicago \hfill 2024
+
+% --------------------------- Teaching -------------------------------------
+\section{Teaching Experience}
+\noindent
+\textit{Teaching Assistant, Northwestern University} \\[2pt]
+Undergraduate Macroeconomics (R. J. Gordon) \hfill 2023 \\
+Undergraduate Macroeconomics (M. Witte) \hfill 2023 \\
+Undergraduate Macroeconomics (L. Christiano) \hfill 2022 \\
+Undergraduate Macroeconomics (G. Primiceri) \hfill 2021 \\
+Graduate Microeconomics (M. Siniscalchi) \hfill 2021, 2022 \\
+Undergraduate Microeconomics (S. Ogawa) \hfill 2021 \\
+Undergraduate Economics of Education (S. Ogawa) \hfill 2022
+
+% --------------------------- Refereeing -----------------------------------
+\section{Refereeing}
+\noindent
+Journal of Monetary Economics, European Economic Review
+
+% --------------------------- Languages ------------------------------------
+\section{Languages}
+Portuguese (native), English (fluent), Spanish (proficient), German (basic), French (basic)
+
+% --------------------------- References -----------------------------------
+\section{References}
+\noindent\begin{tabularx}{\textwidth}{@{}XX@{}}
+Professor Martin Eichenbaum & Professor Sérgio Rebelo \\
+Department of Economics     & Kellogg School of Management \\
+Northwestern University      & Northwestern University \\
+\href{mailto:eich@northwestern.edu}{eich@northwestern.edu} & \href{mailto:s-rebelo@kellogg.northwestern.edu}{s-rebelo@kellogg.northwestern.edu} \\[8pt]
+Professor George-Marios Angeletos & \\
+Department of Economics     & \\
+Northwestern University      & \\
+\href{mailto:angeletos@northwestern.edu}{angeletos@northwestern.edu} & \\
+\end{tabularx}
+
+\vfill
+\hfill {\small\itshape Last updated: \today}
+
+\end{document}
