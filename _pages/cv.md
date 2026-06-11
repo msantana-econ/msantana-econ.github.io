@@ -21,7 +21,7 @@ Publications
 
 Working Papers
 ======
-* "A Theory of Downward Wage Rgidity", 2025
+* "A Theory of Downward Wage Rigidity", 2025
 
 Work in Progress
 ======
